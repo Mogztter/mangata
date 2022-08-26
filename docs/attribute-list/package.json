@@ -1,0 +1,21 @@
+{
+  "name": "@mangata/attribute-list",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "java -jar ./lib/antlr-4.10.1-complete.jar -Dlanguage=JavaScript attributeListLexer.g4 attributeListParser.g4 -o build",
+    "test": "mocha test.js",
+    "pretest": "npm run build"
+  },
+  "author": "Guillaume Grossetie",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "antlr4": "~4.10",
+    "assert": "~2.0",
+    "chai": "~4.3",
+    "dirty-chai": "~2.0",
+    "mocha": "~10.0"
+  }
+}

@@ -1,0 +1,6 @@
+Separator=1
+AttributeName=2
+AttributeNameWithValue=3
+PositionalAttributeValue=4
+AttributeValue=5
+Next=6
